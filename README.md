@@ -63,10 +63,9 @@ CipherAnalysisApp — это графическое приложение на Py
    pip install psutil
    ```
 2. Запустите приложение
-
-  ```bash
-   python app.py
-  ```
+    ```bash
+     python app.py
+    ```
 
 ## Применение
 
