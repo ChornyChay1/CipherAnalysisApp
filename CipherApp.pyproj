@@ -12,6 +12,7 @@
     <OutputPath>.</OutputPath>
     <Name>CipherApp</Name>
     <RootNamespace>PetrovDiplom</RootNamespace>
+    <SuppressEnvironmentCreationPrompt>True</SuppressEnvironmentCreationPrompt>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -24,6 +25,9 @@
   <ItemGroup>
     <Compile Include="cipher.py" />
     <Compile Include="app.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="presentation\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
